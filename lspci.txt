@@ -1,0 +1,126 @@
+00:00.0 Host bridge [0600]: Intel Corporation Meteor Lake-H 6p+8e cores Host Bridge/DRAM Controller [8086:7d01] (rev 04)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: igen6_edac
+        Kernel modules: igen6_edac
+00:02.0 VGA compatible controller [0300]: Intel Corporation Meteor Lake-P [Intel Arc Graphics] [8086:7d55] (rev 08)
+        DeviceName: Onboard - Video
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: i915
+        Kernel modules: i915, xe
+00:04.0 Signal processing controller [1180]: Intel Corporation Meteor Lake-P Dynamic Tuning Technology [8086:7d03] (rev 04)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: proc_thermal_pci
+        Kernel modules: processor_thermal_device_pci
+00:05.0 Multimedia controller [0480]: Intel Corporation Meteor Lake IPU [8086:7d19] (rev 04)
+        DeviceName: Onboard - Sound
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: intel-ipu6
+        Kernel modules: intel_ipu6
+00:06.0 PCI bridge [0604]: Intel Corporation Meteor Lake-H/U PCIe Root Port #9 [8086:7e4d] (rev 20)
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: pcieport
+00:07.0 PCI bridge [0604]: Intel Corporation Meteor Lake-P Thunderbolt 4 PCI Express Root Port #0 [8086:7ec4] (rev 02)
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: pcieport
+00:07.1 PCI bridge [0604]: Intel Corporation Meteor Lake-P Thunderbolt 4 PCI Express Root Port #1 [8086:7ec5] (rev 02)
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: pcieport
+00:08.0 System peripheral [0880]: Intel Corporation Meteor Lake-P Gaussian & Neural-Network Accelerator [8086:7e4c] (rev 20)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+00:0a.0 Signal processing controller [1180]: Intel Corporation Meteor Lake-P Platform Monitoring Technology [8086:7d0d] (rev 01)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: intel_vsec
+        Kernel modules: intel_vsec
+00:0b.0 Processing accelerators [1200]: Intel Corporation Meteor Lake NPU [8086:7d1d] (rev 04)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: intel_vpu
+        Kernel modules: intel_vpu
+00:0d.0 USB controller [0c03]: Intel Corporation Meteor Lake-P Thunderbolt 4 USB Controller [8086:7ec0] (rev 02)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: xhci_hcd
+00:0d.2 USB controller [0c03]: Intel Corporation Meteor Lake-P Thunderbolt 4 NHI #0 [8086:7ec2] (rev 02)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: thunderbolt
+        Kernel modules: thunderbolt
+00:0d.3 USB controller [0c03]: Intel Corporation Meteor Lake-P Thunderbolt 4 NHI #1 [8086:7ec3] (rev 02)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: thunderbolt
+        Kernel modules: thunderbolt
+00:12.0 Serial controller [0700]: Intel Corporation Meteor Lake-P Integrated Sensor Hub [8086:7e45] (rev 20)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: intel_ish_ipc
+        Kernel modules: intel_ish_ipc
+00:14.0 USB controller [0c03]: Intel Corporation Meteor Lake-P USB 3.2 Gen 2x1 xHCI Host Controller [8086:7e7d] (rev 20)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: xhci_hcd
+00:14.2 RAM memory [0500]: Intel Corporation Meteor Lake-H/U Shared SRAM [8086:7e7f] (rev 20)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+00:14.3 Network controller [0280]: Intel Corporation Meteor Lake PCH CNVi WiFi [8086:7e40] (rev 20)
+        DeviceName: Onboard - Ethernet
+        Subsystem: Intel Corporation Wi-Fi 6E AX211 160MHz [8086:0094]
+        Kernel driver in use: iwlwifi
+        Kernel modules: iwlwifi
+00:15.0 Serial bus controller [0c80]: Intel Corporation Meteor Lake-P Serial IO I2C Controller #0 [8086:7e78] (rev 20)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: intel-lpss
+        Kernel modules: intel_lpss_pci
+00:15.1 Serial bus controller [0c80]: Intel Corporation Meteor Lake-P Serial IO I2C Controller #1 [8086:7e79] (rev 20)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: intel-lpss
+        Kernel modules: intel_lpss_pci
+00:15.2 Serial bus controller [0c80]: Intel Corporation Meteor Lake-P Serial IO I2C Controller #2 [8086:7e7a] (rev 20)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: intel-lpss
+        Kernel modules: intel_lpss_pci
+00:15.3 Serial bus controller [0c80]: Intel Corporation Meteor Lake-P Serial IO I2C Controller #3 [8086:7e7b] (rev 20)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: intel-lpss
+        Kernel modules: intel_lpss_pci
+00:16.0 Communication controller [0780]: Intel Corporation Meteor Lake-P CSME HECI #1 [8086:7e70] (rev 20)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: mei_me
+        Kernel modules: mei_me
+00:19.0 Serial bus controller [0c80]: Intel Corporation Meteor Lake-P Serial IO I2C Controller #4 [8086:7e50] (rev 20)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: intel-lpss
+        Kernel modules: intel_lpss_pci
+00:1f.0 ISA bridge [0601]: Intel Corporation Meteor Lake-H eSPI Controller [8086:7e02] (rev 20)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: vfio-pci
+00:1f.3 Multimedia audio controller [0401]: Intel Corporation Meteor Lake-P HD Audio Controller [8086:7e28] (rev 20)
+        DeviceName: Onboard - Sound
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: vfio-pci
+        Kernel modules: snd_hda_intel, snd_sof_pci_intel_mtl
+00:1f.4 SMBus [0c05]: Intel Corporation Meteor Lake-P SMBus Controller [8086:7e22] (rev 20)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: vfio-pci
+        Kernel modules: i2c_i801
+00:1f.5 Serial bus controller [0c80]: Intel Corporation Meteor Lake-P SPI Controller [8086:7e23] (rev 20)
+        DeviceName: Onboard - Other
+        Subsystem: Samsung Electronics Co Ltd Device [144d:c892]
+        Kernel driver in use: vfio-pci
+        Kernel modules: spi_intel_pci
+01:00.0 Non-Volatile memory controller [0108]: Samsung Electronics Co Ltd NVMe SSD Controller PM9B1 (DRAM-less) [144d:a80b] (rev 02)
+        Subsystem: Samsung Electronics Co Ltd NVMe SSD Controller PM9B1 (DRAM-less) [144d:a80b]
+        Kernel driver in use: nvme
+        Kernel modules: nvme
