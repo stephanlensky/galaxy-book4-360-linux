@@ -142,5 +142,5 @@ Reboot did not help.
 
 Possibilities I could think of:
 
-- I missed a PCI device that should have been passed through. I included the full output of `lspci -knn` in `lspci.txt`.
+- I missed a PCI device that should have been passed through. I included the full output of `lspci -knn` in [lspci.txt](./lspci.txt).
 - We are missing ACPI methods to initialize/control the codec. These would not be passed through to the VM with my configuration.
