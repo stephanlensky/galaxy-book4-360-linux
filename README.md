@@ -125,3 +125,16 @@ Run `./startvm.sh`. Notes:
 
 - `-cpu qemu64` is required to avoid BSOD (`-cpu host` doesn't work). TPM issue?
 - `-bios /usr/share/OVMF/x64/OVMF.4m.fd` enables UEFI
+
+I installed Windows and then downloaded the audio driver [from Samsung](https://www.samsung.com/global/galaxybooks-downloadcenter/model/?modelCode=NP960QGK-KG1US&siteCode=us). It's unclear if this installed correctly, the setup window appeared and said it was installing, but then the window closed with no confirmation.
+
+After this, the speakers were still not working:
+
+<img width="573" height="264" alt="image" src="https://github.com/user-attachments/assets/e32f4f35-c1a6-4a5d-a511-7d09a175f63f" />
+<img width="1797" height="882" alt="image" src="https://github.com/user-attachments/assets/f05fea10-bed3-455b-8531-c86bbb060ff6" />
+<img width="1805" height="872" alt="image" src="https://github.com/user-attachments/assets/77632df6-ac1c-4a61-88c5-0e8d19c3092c" />
+
+Possibilities I could think of:
+
+- I missed a PCI device that should have been passed through. I included the full output of `lspci -knn` in `lspci.txt`.
+- We are missing ACPI methods to initialize/control the codec. These would not be passed through to the VM with my configuration.
