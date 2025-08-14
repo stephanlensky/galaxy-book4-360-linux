@@ -1,5 +1,7 @@
 # Galaxy Book4 Pro 360 Audio Notes
 
+I did not succeed in getting anything working here, just including some notes in case someone else finds this useful in the future.
+
 All testing was done on EndeavourOS (Arch Linux).
 
 Links:
