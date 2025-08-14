@@ -64,6 +64,8 @@ sudo ./vfio-bind.sh 0000:00:1f.4
 
 ### Compiling QEMU
 
+**Note: to get a complete dump, we are eventually going to need to apply a [code patch](https://github.com/joshuagrisham/galaxy-book2-pro-linux/tree/main/sound/qemu) here in addition to the `./configure` option. Didn't see the point in bothering with this until we get the drivers working properly in virtualized Windows.**
+
 Resources:
 
 - Arch Linux package - https://gitlab.archlinux.org/archlinux/packaging/packages/qemu
