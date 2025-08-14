@@ -117,7 +117,7 @@ When I first purchased the laptop, I took a full disk backup onto an external dr
 Clone the disk to a QEMU image:
 
 - I created a new partition at `/dev/nvme0n1p10` to house the QEMU image (`sudo mount /dev/nvme0n1p10 /mnt`).
-- Create the image: `sudo qemu-img convert -f raw -O qcow2 /mnt/samsung-windows.img /mnt/samsung-windows.qcow2`
+- Create the image: `sudo qemu-img convert -f raw -O qcow2 /dev/sda /mnt/samsung-windows.qcow2`
 - Verify image: https://unix.stackexchange.com/questions/268460/how-to-mount-qcow2-image
 - Create overlay for persistent storage: `sudo qemu-img create -f qcow2 -b /mnt/samsung-windows.qcow2 -F qcow2 /mnt/overlay.qcow2`
 
@@ -135,6 +135,8 @@ After this, the speakers were still not working:
 <img width="573" height="264" alt="image" src="https://github.com/user-attachments/assets/e32f4f35-c1a6-4a5d-a511-7d09a175f63f" />
 <img width="1797" height="882" alt="image" src="https://github.com/user-attachments/assets/f05fea10-bed3-455b-8531-c86bbb060ff6" />
 <img width="1805" height="872" alt="image" src="https://github.com/user-attachments/assets/77632df6-ac1c-4a61-88c5-0e8d19c3092c" />
+
+Reboot did not help.
 
 Possibilities I could think of:
 
